@@ -7,7 +7,7 @@ import Video from "./video";
 export default function App() {
   const [currentVideo, setCurrent] = useState(0);
   return (
-    <div className="App container">
+    <div className="App container mb-5 mt-5">
       <div className="row">
         <div className="col-md-6">
           <VideoListView currentVideo={currentVideo}
