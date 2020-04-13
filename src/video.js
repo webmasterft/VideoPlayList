@@ -6,7 +6,7 @@ const Video = props => {
     <iframe
       title="Ingreso al administrador"
       width="100%"
-      height="315"
+      height="500"
       src={`https://www.youtube.com/embed/${props.video.id}?rel=0&autoplay=1`}
       frameBorder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
