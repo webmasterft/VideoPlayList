@@ -10,14 +10,14 @@ export default function App() {
     <div className="App container mb-5 mt-5">
       <div className="row">
         <h1 className="mb-5"> Manual de administración sitio web ASOPREOL</h1>
-        <div className="col-md-6">
+        <div className="col-md-12">
           <VideoListView
             currentVideo={currentVideo}
             videoList={videoList}
             setCurrent={setCurrent}
           />
         </div>
-        <div className="col-md-6">
+        <div className="col-md-12">
           <Video video={videoList[currentVideo]} />
         </div>
       </div>
