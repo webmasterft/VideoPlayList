@@ -1,0 +1,8 @@
+.header {
+  background: black;
+}
+.header .logo {
+  max-width: 150px;
+  padding: 10px 0;
+}
+
